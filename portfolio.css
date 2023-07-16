@@ -138,3 +138,64 @@ body{
     inline-size: 100%;
 }
 
+.contact{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 50px;
+}
+
+.send-message{
+    width: 50%;
+    align-items: center;
+    margin: 15px 15px;
+}
+
+.send-message input{
+    width: 95%;
+    height: 35px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.send-message textarea{
+    width: 95%;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.send-message button{
+    background-color: #0078ff;
+    color: #fff;
+    border-color: #cde1f8;
+    padding: 0.9rem 2.3rem;
+    font-size: 1.2rem;
+    border-radius: 5rem;
+}
+
+.get-in-touch{
+    width: 50%;
+    margin: 15px 15px;
+    align-items: center;
+}
+
+.address{
+    margin: 10px 0;
+}
+
+.address ul{
+    list-style: none;
+}
+
+.social li{
+    list-style: none;
+    display: inline;
+}
+
+label{
+    margin-bottom: 0;
+}
+
+p{
+    margin-bottom: 0;
+}
+
